@@ -1,0 +1,30 @@
+<html><body><h1>CVE search cisco:ios:15.2 </h1>
+<h2>CVE-2018-0255<br></h2>CVSS score: 6.8<br><b>2018-04-19 16:29:01.177000<b><br>A vulnerability in the device manager web interface of Cisco Industrial Ethernet Switches could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack against a user of an affected system. The vulnerability is due to insufficient CSRF protection by the device manager web interface. An attacker could exploit this vulnerability by persuading a user of the interface to follow a malicious link or visit an attacker-controlled website. A successful exploit could allow the attacker to submit arbitrary requests to an affected device via the device manager web interface with the privileges of the user. This vulnerability affects the following Cisco Industrial Ethernet (IE) Switches if they are running a vulnerable release of Cisco IOS Software: IE 2000 Series, IE 2000U Series, IE 3000 Series, IE 3010 Series, IE 4000 Series, IE 4010 Series, IE 5000 Series. Cisco Bug IDs: CSCvc96405.<br>
+References:<br>
+http://www.securitytracker.com/id/1040715<br>
+https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-iess<br>
+<hr><hr>
+<h2>CVE-2018-0171<br></h2>CVSS score: 10.0<br><b>2018-03-28 18:29:01.063000<b><br>A vulnerability in the Smart Install feature of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition, or to execute arbitrary code on an affected device. The vulnerability is due to improper validation of packet data. An attacker could exploit this vulnerability by sending a crafted Smart Install message to an affected device on TCP port 4786. A successful exploit could allow the attacker to cause a buffer overflow on the affected device, which could have the following impacts: Triggering a reload of the device, Allowing the attacker to execute arbitrary code on the device, Causing an indefinite loop on the affected device that triggers a watchdog crash. Cisco Bug IDs: CSCvg76186.<br>
+References:<br>
+http://www.securityfocus.com/bid/103538<br>
+http://www.securitytracker.com/id/1040580<br>
+https://ics-cert.us-cert.gov/advisories/ICSA-18-107-04<br>
+https://ics-cert.us-cert.gov/advisories/ICSA-18-107-05<br>
+https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-smi2<br>
+https://www.darkreading.com/perimeter/attackers-exploit-cisco-switch-issue-as-vendor-warns-of-yet-another-critical-flaw/d/d-id/1331490<br>
+<hr><hr>
+<h2>CVE-2018-0161<br></h2>CVSS score: 6.3<br><b>2018-03-28 18:29:00.703000<b><br>A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software running on certain models of Cisco Catalyst Switches could allow an authenticated, remote attacker to cause a denial of service (DoS) condition, aka a GET MIB Object ID Denial of Service Vulnerability. The vulnerability is due to a condition that could occur when the affected software processes an SNMP read request that contains a request for the ciscoFlashMIB object ID (OID). An attacker could trigger this vulnerability by issuing an SNMP GET request for the ciscoFlashMIB OID on an affected device. A successful exploit could cause the affected device to restart due to a SYS-3-CPUHOG. This vulnerability affects the following Cisco devices if they are running a vulnerable release of Cisco IOS Software and are configured to use SNMP Version 2 (SNMPv2) or SNMP Version 3 (SNMPv3): Cisco Catalyst 2960-L Series Switches, Cisco Catalyst Digital Building Series Switches 8P, Cisco Catalyst Digital Building Series Switches 8U. Cisco Bug IDs: CSCvd89541.<br>
+References:<br>
+http://www.securityfocus.com/bid/103573<br>
+http://www.securitytracker.com/id/1040589<br>
+https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-snmp<br>
+<hr><hr>
+<h2>CVE-2018-0156<br></h2>CVSS score: 7.8<br><b>2018-03-28 18:29:00.467000<b><br>A vulnerability in the Smart Install feature of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition. The vulnerability is due to improper validation of packet data. An attacker could exploit this vulnerability by sending a crafted packet to an affected device on TCP port 4786. Only Smart Install client switches are affected. Cisco devices that are configured as a Smart Install director are not affected by this vulnerability. Cisco Bug IDs: CSCvd40673.<br>
+References:<br>
+http://www.securityfocus.com/bid/103569<br>
+http://www.securitytracker.com/id/1040596<br>
+https://ics-cert.us-cert.gov/advisories/ICSA-18-107-04<br>
+https://ics-cert.us-cert.gov/advisories/ICSA-18-107-05<br>
+https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-smi<br>
+<hr><hr>
+</body></html>

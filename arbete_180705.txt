@@ -1,0 +1,28 @@
+python3 /root/cve-search/bin/search.py -p leverantör:produkt:version
+
+python3 /root/cve-search/bin/search.py 
+
+
+
+
+
+2.X Mjukvara
+2.X.y 
+
+komponentstatus
+patchstatus
+supportavtal
+trendanalys
+loggar
+
+grön/röd text om åtgärd krävs 
+
+sökväg för output från CVE-search 
+/mnt/hgfs/C/WCS/Omvärldsbevakning/CVE
+
+viktigt att köra python3 , sök efter cisco:2951 modellen, från de senaste 130 dagarna 
+# python3 /root/cve-search/bin/search.py -p cisco:2951 -t 130 -o html > /mnt/hgfs/C/WCS/Omvärldsbevakning/CVE/cisco_2951.html
+
+
+nuvarande version (och om det finns nyare) 
+sårbarhet 

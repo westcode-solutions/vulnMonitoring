@@ -1,0 +1,24 @@
+# python3 /root/cve-search/bin/search.py -p cisco:2951 -t 130 -o html > /mnt/hgfs/C/WCS/Omvärldsbevakning/CVE/cisco_2951.html
+
+# python3 /root/cve-search/bin/search.py -p microsoft:windows_server_2012:r2 -t 130
+
+python3 /root/cve-search/bin/search.py -p microsoft:windows_server_2012:r2
+
+hitta filer som är mindre än 1k 
+find /mnt/hgfs/C/WCS/Omvärldsbevakning/CVE/ -name "*.html" -size 1k
+
+date_diff=$(( ($(date -d "2015-03-11 UTC" +%s) - $(date -d "2015-03-05 UTC" +%s) )/(60*60*24) ))
+
+
+#!/bin/bash
+dagensDatum=$(date +%Y-%m-%d)
+startDatum=$(date -d 2018-01-01 +%Y-%m-%d)
+echo $dagensDatum
+echo $startDatum
+
+date_diff=$(( ($(date -d $dagensDatum +%s) - $(date -d $startDatum +%s) )/(60*60*24) ))
+
+echo $date_diff
+
+framtida fix: diff mellan tidigare rapport och nyare. 
+
